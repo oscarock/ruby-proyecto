@@ -3,6 +3,7 @@ puts "Para empezar a jugar digita 1"
 puts "Para salir digita 0"
 
 text = gets.chomp.to_i
+
 if text == 1
 	system 'cls'
 	questions = File.readlines('definiciones.txt')
